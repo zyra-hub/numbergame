@@ -10,7 +10,7 @@ let guess = Number(prompt("Guess a number between 1 and 20"));
 while (guess != secret) {
 
     if (!guess && guess !== 0) {
-        alert("⚠️ You didn't enter anything!!!!");
+        alert("⚠️ Invalid!!!!");
     } else if (isNaN(guess)) {
         alert("Please enter a valid number!🤝");
     } else if (guess > secret) {
