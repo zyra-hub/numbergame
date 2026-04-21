@@ -11,9 +11,12 @@ let guess = prompt("Guess a number between 1 and 20");
 while (guess != secret) {
     if (guess > secret) {
         alert("Too HIGH Try again 🤣");
-    } else {
+    } else if {
         alert("Too Low! Try again 🤣");
     }
+      else{
+         alert("Invalid operation");
+       }
     guess = prompt("Try Again😭");
 }
 alert("CORRECT!!!🥳🥳");
