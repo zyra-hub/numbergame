@@ -19,7 +19,7 @@ while (guess != secret) {
        }
     guess = prompt("Try Again😭");
 }
-alert("CORRECT!!!🥳🥳");
+alert("CORRECT!!!🥳🥳🥳");
 // while (i > guess) {
 //     prompt("Guess a number between 1 and 20")
 // }
