@@ -14,7 +14,7 @@ while (guess != secret) {
     } else if {
         alert("Too Low! Try again 🤣");
     }
-      else{
+      else {
          alert("Invalid operation");
        }
     guess = prompt("Try Again😭");
