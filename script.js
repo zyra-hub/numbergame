@@ -10,13 +10,13 @@ let guess = prompt("Guess a number between 1 and 20");
 // guess == secret
 while (guess != secret) {
     if (guess > secret) {
-        alert("Too HIGH");
+        alert("Too HIGH Try again 🤣");
     } else {
-        alert("Too Low!");
+        alert("Too Low! Try again 🤣");
     }
-    guess = prompt("Try Again");
+    guess = prompt("Try Again😭");
 }
-alert("CORRECT!!!");
+alert("CORRECT!!!🥳🥳");
 // while (i > guess) {
 //     prompt("Guess a number between 1 and 20")
 // }
