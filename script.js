@@ -4,22 +4,22 @@
 // reapat cond until its correct/ psudo code
 
 let secret = Math.floor(Math.random() * 20) + 1;
-// guess
-let guess = prompt("Guess a number between 1 and 20");
-// compare
-// guess == secret
+
+let guess = Number(prompt("Guess a number between 1 and 20"));
+
 while (guess != secret) {
-    if (guess > secret) {
+
+    if (!guess && guess !== 0) {
+        alert("⚠️ You didn't enter anything!!!!");
+    } else if (isNaN(guess)) {
+        alert("Please enter a valid number!🤝");
+    } else if (guess > secret) {
         alert("Too HIGH Try again 🤣");
-    } else if {
+    } else if (guess < secret) {
         alert("Too Low! Try again 🤣");
     }
-      else { 
-         alert("Invalid operation");
-       }
-    guess = prompt("Try Again😭");
+
+    guess = Number(prompt("Try Again😭"));
 }
+
 alert("CORRECT!!!🥳🥳🥳");
-// while (i > guess) {
-//     prompt("Guess a number between 1 and 20")
-// }
